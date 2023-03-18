@@ -1,0 +1,25 @@
+{
+  "name": "vulcan testnet",
+  "chain": "VUL",
+  "rpc": [
+    "https://test-rpc.vulcanblockchain.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Vulcan",
+    "symbol": "VUL",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://vulcanblockchain.com/",
+  "shortName": "vul",
+  "chainId": 14333,
+  "networkId": 14333,
+  "icon": "vulcan",
+  "explorers": [{
+    "name": "vulcantrace",
+    "url": "https://test-trace.vulcanblockchain.com/",
+    "icon": "vulcantrace",
+    "standard": "EIP3091"
+  }]
+}
